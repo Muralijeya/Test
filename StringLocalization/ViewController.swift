@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         label1.text = String.localizedStringWithFormat(formattedlbl1, number)
         label2.text = String.localizedStringWithFormat(formattedlbl2, number)
 
-        //label.backgroundColor = .blue
+        label.backgroundColor = .blue
     }
 }
 
