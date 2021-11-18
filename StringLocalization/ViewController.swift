@@ -33,8 +33,8 @@ class ViewController: UIViewController {
         let number = 3
         label1.text = "Hello \(number)"
         label2.text = "Hello \(number)"
-        let formattedlbl1 = NSLocalizedString("Hello %d", comment: "Greetings")
-        //let formattedlbl1 = String(localized: "Hello \(number)", comment: "Greetings")
+        //let formattedlbl1 = NSLocalizedString("Hello %d", comment: "Greetings")
+        let formattedlbl1 = String(localized: "Hello \(number)", comment: "Greetings")
         
 
         let formattedlbl2 = NSLocalizedString("Hello %d", comment: "Greetings")
